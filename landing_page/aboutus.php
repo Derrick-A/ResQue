@@ -11,13 +11,16 @@
 
 <body>
     <header>
-        
+        <!-- move to the left side of alles -->
+    <a id="back-home" href="../landing_page/home.php">Back to Home</a>
+
         <h1>Meet Our Fully Remote Team</h1>
         <h2>Ready to Save Your Day, One Fix at a Time.
             It takes a group of passionate operators to run the system
         </h2>
     </header>
 
+   
     <!-- thoko -->
     <div class="team-container">
         <div class="team-member" id="member-1">
@@ -114,7 +117,7 @@
 
     </script>
 
-<a id="back-home" href="../landing_page/home.php">Back to Home</a>
+
 
     <!-- obtained from the landing page -->
     <footer class="footer"> 

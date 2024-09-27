@@ -57,6 +57,7 @@ session_start();
                 </div>
             </div>
         </section>
+        <br>
 
        <!-- Card Section -->
     <section class="card-section">

@@ -16,8 +16,8 @@ body {
     background-position: center;
     background-attachment: fixed;
     padding-top: 5.5rem; /* Space for the fixed header */
-    background-color: #CFDDE9;
-    color: #333;
+    background-image: url(../landing_page/pictures/wrenchtoys.jpg);
+    color: black; /* also changes the colour of the text in the boxes */
 }
 
 .hidden {
@@ -223,7 +223,7 @@ nav {
 /* SECTION 1 */
 /* Hero section: Main content area */
 .hero {
-    padding: 3rem 2rem;      
+    padding: 21rem 2rem;      
 }
 
 h2 {
@@ -280,13 +280,13 @@ h2, .words, .hero-image:nth-child(3) {
  /* Adjust size for larger screens */
     margin-bottom: 1rem;
     color: #000929;
-    line-height: 1.2;
+    line-height: 1.5;
 }
 
 /* Paragraph in hero section */
 .hero-content p {
     font-size: 1.25rem;
-    color: #555;
+    color: #000929;
     margin-bottom: 2rem;
 }
 
@@ -294,23 +294,6 @@ h2, .words, .hero-image:nth-child(3) {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-}
-
-/* Hero image */
-.hero-image {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 100%;
-    padding-left: 20rem; /* Increase left padding for more spacing */
-}
-
-.hero-image img {
-    width: 100%;
-    max-width: 400px; /* Control max size of image */
-    height: auto;
-    display: flex;
 }
 
 /* Media Query for Tablets and Smaller Screens */
@@ -409,7 +392,8 @@ h2, .words, .hero-image:nth-child(3) {
 
 .card {
     border-radius: 20px;
-    padding: 20px;
+    /* for the words in the boxes */
+    padding: 70px;
     width: 30%;
     text-align: center;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
@@ -441,8 +425,8 @@ h2, .words, .hero-image:nth-child(3) {
     background-color: #CFDDE9;
 }
 .about img{
-    width: 250px;
-    height: 300px;
+    width: 182px;
+    height: 200px;
     border-radius: 20px;
     margin-bottom: 15px;
 }
