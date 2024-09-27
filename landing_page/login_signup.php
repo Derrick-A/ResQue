@@ -71,11 +71,30 @@
                         </select>
 
                         <label for="resName">Residence Name</label>
-                        <input type="text" id="resName" placeholder="Enter resident name" name="resName">
+                        <select name="resName" id="resName">
+                            <option value="">Select Resident Name</option>
+                            <option value="Botha House">Botha House</option>
+                            <option value="College House">College House</option>
+                            <option value="Cory House">Cory House</option>
+                            <option value="Matthews House">Matthews House</option>
+                            <option value="Allan Gray House">Allan Gray House</option>
+                            <option value="Celeste House">Celeste House</option>
+                            <option value="Graham House">Graham House</option>
+                            <option value="Prince Alfred House">Prince Alfred House</option>
+                            <option value="Okdane House">Okdane House</option>
+                            <option value="Dingemans House">Dingemans House</option>
+                            <option value="Hobson House">Hobson House</option>
+                            <option value="Starling House">Starling House</option>
+                            <option value="Livingstone House">Livingstone House</option>
+                            <option value="Milner House">Milner House</option>
+                            <option value="Adelaide Tambo House">Adelaide Tambo House</option>
+                            <option value="Helen Joseph House">Helen Joseph House</option>
+                            <option value="Guy Butler House">Guy Butler House</option>
+                            <option value="Stanley Kidd House">Stanley Kidd House</option>
+                        </select>
 
                         <label for="roomNumber">Room Number</label>
                         <input type="text" id="roomNumber" placeholder="Enter room number" name="roomNumber" pattern="\d{1,3}">
-
                     </div>
                 
                     <!-- House Warden Fields -->

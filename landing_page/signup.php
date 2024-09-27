@@ -97,7 +97,7 @@ if ($result->num_rows > 0) {
                 //check if the student has been added successfully and go to the dashboard
                 if ($student === TRUE) {
                     echo "<p class=\"success\">User and Student added successfully!</p>";
-                    header("Location: ticketCreationFinal.php");
+                    header("Location: ../ticket_tracking/ticketCreationFinal.php");
                     exit();
                 } else {
                     die("<p class=\"error\">Error adding into student table: " . $conn->error . "</p>");

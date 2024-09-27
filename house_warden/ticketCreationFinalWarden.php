@@ -193,7 +193,7 @@ if (isset($_GET['success']) && $_GET['success'] == 1 && isset($_GET['message']))
                         <div class="form-group">
                             <label for="picture">Upload an Image</label>
                             <div class="form-input">
-                                <input type="file" name="picture[]" id="picture" placeholder="Choose file" multiple>
+                                <input type="file" name="picture[]" id="picture" placeholder="Choose file" accept=".jpg, .jpeg, .png, .gif" multiple>
                             </div>
                         </div>
                         <div class="form-actions">
